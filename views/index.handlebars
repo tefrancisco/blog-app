@@ -1,0 +1,29 @@
+<div class="jumbotron">
+    <h1 class="display-4">Bem vindo(a) ao blog do Nodejs</h1>
+    <p class="lead">Este é a minha segunda aplicação utilizando Nodejs. É um blog onde existem categorias e postagens das devidas categorias, ambas gerenciadas por um usuário
+        admnistrador. Nele existe um sistema de registro e login utilizando Passport. O banco de dados utilizado pela aplicação é o MongoDB, a partir do Atlas.
+    </p>
+    <hr class="my-4">
+    <p>Todas as rotas (tanto as de um usuário comum tanto como as de admnistradores) estão acessíveis a partir de links na navbar ou através de botões em algumas páginas, sendo
+        as de admnistradores protegidas por autenticação.</p>
+    <a class="btn btn-success btn-lg" href="/usuarios/registro" role="button">Crie uma conta</a>
+</div>
+
+<hr>
+
+<h2>Postagens recentes:</h2>
+
+{{#each postagens}}
+<div class="card mt-4">
+    <div class="card-body">
+        <h3>{{titulo}}</h3>
+        <p>{{descricao}}</p>
+        <a href="/postagem/{{slug}}"><button class="btn btn-success">Leia mais</button></a>
+        <hr>
+        <small>Categoria: {{categoria.nome}}</small> <br>
+        <small>Data de publicação: {{data}}</small>
+    </div>
+</div>
+{{else}}
+<h5>Nenhuma postagem.</h5>
+{{/each}}
