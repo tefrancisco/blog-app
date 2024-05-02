@@ -20,7 +20,7 @@ Ao entrar, são apresentados cards mostrando as postagens mais recentes com suas
 * Login: admin@gmail.com(e-mail não real)
 * Senha: tempra
 
-Desde já, agradeço pela atenção, que você tenha uma ótima semana! 😄
+Desde já, agradeço pela atenção! 😄
 
 
 
