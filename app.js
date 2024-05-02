@@ -46,7 +46,7 @@ initializePassport(passport)
         app.set('view engine', 'handlebars')
     // Mongoose
         mongoose.Promise = global.Promise;
-        mongoose.connect("mongodb+srv://Francisco:T045231-@mycluster.rskefox.mongodb.net/?retryWrites=true&w=majority&appName=myCluster", {
+        mongoose.connect("mongodb+srv://Francisco:tempra@mycluster.rskefox.mongodb.net/?retryWrites=true&w=majority&appName=myCluster", {
             dbName: 'blogapp'
         }).then(() => {
             console.log('Banco de dados conectado com sucesso.')
