@@ -2,8 +2,7 @@
 
 ## Aplicação blog utilizando Nodejs
 > [!NOTE]
-> Essa é a minha segunda aplicação e a primeira a ser publicada com Nodejs e as demais tecnologias, se observar algum erro, tiver alguma dúvida ou forma de otimização do código peço que entre em contato comigo e então discutiremos.
-Endereço para visita: http://54.233.168.208:3333/
+> Essa é a minha segunda aplicação e a primeira a ser publicada com Nodejs e as demais tecnologias, se observar algum erro, tiver alguma dúvida ou forma de otimização do código peço que entre em contato comigo.
 
 ## Sobre o programa
 Essa é uma aplicação que desenvolvi com Nodejs, seguindo o viés de ser um blog. O blog conta com um sistema de registro e login, sendo diferenciados usuários comuns de admnistradores, no caso, apenas admnistradores podem criar, editar ou deletar categorias e suas respectivas postagens. Foram utilizados na criação do projeto:
