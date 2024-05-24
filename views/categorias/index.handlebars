@@ -1,7 +1,14 @@
-<h4>Categorias: </h4>
+<div class="intro">
+  <img src="/img/nodejsgreen.png" width="60px" height="60px">
+  <h2>Lista de categorias</h2> 
+</div> 
+
+<hr class="green">
+
+<br> <br>
 
 {{#each categorias}}
-<a href="/categorias/{{slug}}"><h5>{{nome}}</h5></a>
+<a class="categoria-links" href="/categorias/{{slug}}"><li class="list-group-item">{{nome}}</li></a> <br>
 {{else}}
 
 {{/each}}

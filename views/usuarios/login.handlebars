@@ -1,13 +1,26 @@
-<h3>Login:</h3>
+<div id="container">
+        <section>
+            <article>
+                <div class="inner">
+                    <h1>Bem vindo!</h1>
+                    <p>Para continuar conectado conosco faça login com suas credenciais.
+                    </p>
 
-<div class="card">
-    <div class="card-body">
-        <form action="/usuarios/login" method="post">
-            <label for="email">E-mail:</label>
-            <input type="email" name="email" class="form-control" required>
-            <label for="senha">Senha:</label>
-            <input type="password" name="senha" class="form-control" required>
-            <button type="subtmit" class="btn btn-success mt-4">Entrar</button>
-        </form>
+                    <p>Não tem uma conta?
+                    </p>
+                    <a href="/usuarios/registro" class="btn">Registre-se</a>
+                </div>
+            </article>
+            <aside>
+                <div class="inner">
+                    <h2>Login</h2>
+                    <form action="/usuarios/login" method="post" class="auth-form">
+                        <input type="email" name="email" placeholder="E-mail" value="admin@gmail.com" required>
+                        <input type="password" name="senha" placeholder="Password" value="tempra" required>
+                        <p>(Conta com privilégios de admnistrador)</p>
+                        <button type="submit">Entrar</button>
+                    </form>
+                </div>
+            </aside>
+        </section>
     </div>
-</div>

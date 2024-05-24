@@ -4,20 +4,31 @@
 
 {{/each}}
 
-<h3>Crie sua conta:</h3>
+<div id="container">
+        <section>
+            <article>
+                <div class="inner">
+                    <h1>Bem vindo!</h1>
+                    <p>Para aproveitar o máximo do site, cria sua conta.
+                    </p>
 
-<div class="card">
-    <div class="card-body">
-        <form action="" method="post">
-            <label for="nome">Nome:</label>
-                <input type="text" name="nome" class="form-control" required>
-            <label for="email">E-mail</label>
-                <input type="email" name="email" class="form-control" required>
-            <label for="senha">Senha:</label>
-                <input type="password" name="senha" class="form-control" required>
-            <label for="senha2">Repita a sua senha:</label>
-                <input type="password" name="senha2" class="form-control" required>
-            <button type="submit" class="btn btn-success mt-4">Criar conta</button>
-        </form>
+                     <p>Já tem uma conta?
+                    </p>
+                    <a href="/usuarios/login" class="btn">Login</a>
+                </div>
+            </article>
+            <aside>
+                <div class="inner">
+                    <h2>Crie sua conta</h2>
+                    <p>Use seu e-mail e crie uma senha para você.</p>
+                    <form action="" method="post" class="auth-form">
+                        <input type="text" name="nome" placeholder="Nome">
+                        <input type="email" name="email" placeholder="E-mail">
+                        <input type="password" name="senha" placeholder="Senha">
+                         <input type="password" name="senha2" placeholder="Confirme sua senha">
+                        <button type="submit" class="btn">Registrar</button>
+                    </form>
+                </div>
+            </aside>
+        </section>
     </div>
-</div>
